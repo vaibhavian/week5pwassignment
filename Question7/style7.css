@@ -1,0 +1,65 @@
+header {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.card-1 {
+    background-color: blue;
+    border: 2px solid black;
+    height: 200px;
+    width: 150px;
+    text-align: center;
+    padding-top: 2px;
+    position: absolute;
+    font-weight: bold;
+    z-index: 1;
+    transition: transform 0.3s, z-index 0.3s;
+}
+.card-2 {
+    background-color: green;
+    border: 2px solid black;
+    height: 200px;
+    width: 150px;
+    text-align: center;
+    padding-top: 0px;
+    position: absolute;
+    z-index: 2;
+    left: 50px;
+    top: 100px;
+    font-weight: bold;
+    transition: transform 0.3s, z-index 0.3s;
+}
+.card-3 {
+    background-color: rgb(238, 163, 3);
+    border: 2px solid black;
+    height: 200px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    left: 100px;
+    top: 160px;
+    z-index: 3;
+    font-weight: bold;
+    transition: transform 0.3s, z-index 0.3s;
+}
+img {
+    justify-content: center;
+    display: block;
+    margin: auto;
+    align-content: center;
+    padding-left: 25px;
+    padding-top: 0px;
+    position: absolute;
+    z-index: 3;
+}
+.card-1:hover {
+    z-index: 4;
+}
+.card-2:hover {
+    z-index: 4;
+}
+.card-3:hover {
+    z-index: 4;
+}

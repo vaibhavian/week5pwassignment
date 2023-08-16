@@ -1,0 +1,35 @@
+.code {
+    background-color: #d4d4d4;
+    width: 400px;
+    height: 635px;
+    border: 1px solid black;
+}
+.blue-left, .white-right, h4 {
+    padding-left: 10px;
+}
+.blue-left {
+    color: blue;
+    list-style: none;
+    float: left;
+    font-weight: bold;
+    font-style: inherit;
+    padding: 10px;
+    max-width: 180px;
+    padding-top: 0px;
+}
+.first-second {
+    padding: 2px;
+}
+.right-white {
+    color: black;
+    float: right;
+    list-style: none;
+    padding-right: 30px;
+}
+.right {
+    padding-bottom: 7px;
+}
+
+.first-code {
+    padding-bottom: 15px;
+}

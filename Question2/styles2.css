@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+.content {
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 800px;
+    float: left;
+}
+h1 {
+    font-size: 40px;
+}
+.button {
+    color: wheat;
+    background-color: rgb(63, 45, 165);
+    font-size: small;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    font-weight: bold;
+    float: left;
+}
+.image {
+    float: right;
+    padding-right: 40px;
+    height: 400px;
+    width: auto;
+
+}
